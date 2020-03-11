@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@css/leftMenuBar.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <GridPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="27.0" prefWidth="600.0" style="-fx-background-color: #2c3e50;" StackPane.alignment="TOP_CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="432.0" minWidth="10.0" prefWidth="416.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="384.0" minWidth="10.0" prefWidth="55.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="286.0" minWidth="10.0" prefWidth="41.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="227.0" minWidth="10.0" prefWidth="40.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="115.0" minWidth="10.0" prefWidth="39.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="20.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label alignment="CENTER" prefWidth="215.0" text="[Trivial Banking System] - Client Panel" textFill="#7f8c8d" GridPane.halignment="RIGHT">
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </Label>
+         </children>
+      </GridPane>
+      <JFXTabPane maxHeight="-Infinity" prefHeight="373.0" prefWidth="600.0" rotateGraphic="true" side="LEFT" style="-fx-background-color: #34495e;" tabClosingPolicy="UNAVAILABLE" tabMaxHeight="90.0" tabMaxWidth="90.0" tabMinHeight="90.0" tabMinWidth="90.0" StackPane.alignment="BOTTOM_CENTER">
+         <tabs>
+            <Tab closable="false" style="-fx-rotate: 90; -fx-background-color: #2c3e50;">
+              <content>
+                <AnchorPane minHeight="60.0" minWidth="60.0" prefHeight="400.0" prefWidth="540.0" snapToPixel="false">
+                     <children>
+                        <GridPane prefHeight="373.0" prefWidth="509.0">
+                          <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label prefHeight="17.0" prefWidth="44.0" text="Balance:" textFill="#ecf0f1" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP" />
+                              <Label layoutX="315.0" layoutY="83.0" prefHeight="17.0" prefWidth="44.0" text="VALUE" textFill="#ecf0f1" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="388.0" layoutY="83.0" prefHeight="17.0" prefWidth="44.0" text="PLN" textFill="#ecf0f1" GridPane.columnIndex="7" GridPane.rowIndex="1" GridPane.valignment="TOP" />
+                              <Label layoutX="446.0" layoutY="83.0" prefHeight="17.0" prefWidth="160.0" text="Name Lastname (Client No.)" textFill="#ecf0f1" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.halignment="CENTER" />
+                              <Label layoutX="39.0" layoutY="29.0" prefHeight="17.0" prefWidth="78.0" text="Account No. :" textFill="#ecf0f1" GridPane.columnIndex="3" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="227.0" layoutY="136.0" prefHeight="17.0" prefWidth="148.0" text="3665 9499 0000 3024 0692" textFill="#ecf0f1" GridPane.columnIndex="5" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="TEXT" />
+                                 </cursor>
+                              </Label>
+                              <Label layoutX="336.0" layoutY="136.0" prefHeight="17.0" prefWidth="62.0" text="Full Name:" textFill="#ecf0f1" GridPane.columnSpan="2" GridPane.halignment="RIGHT" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                                 <cursor>
+                                    <Cursor fx:constant="TEXT" />
+                                 </cursor>
+                              </Label>
+                              <Label alignment="CENTER" layoutX="20.0" layoutY="189.0" prefHeight="17.0" prefWidth="89.0" text="Name Lastname" textFill="#ecf0f1" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="4">
+                                 <cursor>
+                                    <Cursor fx:constant="TEXT" />
+                                 </cursor>
+                              </Label>
+                              <Label prefHeight="17.0" prefWidth="29.0" text="City:" textFill="#ecf0f1" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                                 <cursor>
+                                    <Cursor fx:constant="TEXT" />
+                                 </cursor>
+                              </Label>
+                              <Label prefHeight="17.0" prefWidth="41.0" text="Street:" textFill="#ecf0f1" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                                 <cursor>
+                                    <Cursor fx:constant="TEXT" />
+                                 </cursor>
+                              </Label>
+                              <Label layoutX="53.0" layoutY="224.0" prefHeight="17.0" prefWidth="83.0" text="CITY" textFill="#ecf0f1" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                                 <cursor>
+                                    <Cursor fx:constant="TEXT" />
+                                 </cursor>
+                              </Label>
+                              <Label layoutX="41.0" layoutY="260.0" prefHeight="31.0" prefWidth="85.0" text="ul. Street 12&#10;1c/18" textFill="#ecf0f1" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.rowSpan="2" GridPane.valignment="CENTER">
+                                 <cursor>
+                                    <Cursor fx:constant="TEXT" />
+                                 </cursor>
+                                 <GridPane.margin>
+                                    <Insets top="-5.0" />
+                                 </GridPane.margin>
+                              </Label>
+                              <Label layoutX="112.0" layoutY="259.0" prefHeight="31.0" prefWidth="63.0" text="Phone No.:" textFill="#ecf0f1" GridPane.columnIndex="4" GridPane.columnSpan="2" GridPane.halignment="RIGHT" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                                 <cursor>
+                                    <Cursor fx:constant="TEXT" />
+                                 </cursor>
+                              </Label>
+                              <Label layoutX="112.0" layoutY="259.0" prefHeight="31.0" prefWidth="77.0" text="111-222-333" textFill="#ecf0f1" GridPane.columnIndex="6" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                                 <cursor>
+                                    <Cursor fx:constant="TEXT" />
+                                 </cursor>
+                              </Label>
+                              <Label prefHeight="17.0" prefWidth="41.0" text="PESEL:" textFill="#ecf0f1" GridPane.columnIndex="5" GridPane.halignment="RIGHT" GridPane.rowIndex="4">
+                                 <cursor>
+                                    <Cursor fx:constant="TEXT" />
+                                 </cursor>
+                              </Label>
+                              <Label prefHeight="17.0" prefWidth="41.0" text="ID No.:" textFill="#ecf0f1" GridPane.columnIndex="5" GridPane.halignment="RIGHT" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                                 <cursor>
+                                    <Cursor fx:constant="TEXT" />
+                                 </cursor>
+                              </Label>
+                              <Label prefHeight="17.0" prefWidth="49.0" text="ID Type:" textFill="#ecf0f1" GridPane.columnIndex="5" GridPane.halignment="RIGHT" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                                 <cursor>
+                                    <Cursor fx:constant="TEXT" />
+                                 </cursor>
+                              </Label>
+                              <Label alignment="CENTER" layoutX="140.0" layoutY="224.0" prefHeight="17.0" prefWidth="80.0" text="00000000000" textFill="#ecf0f1" GridPane.columnIndex="6" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="4">
+                                 <cursor>
+                                    <Cursor fx:constant="TEXT" />
+                                 </cursor>
+                              </Label>
+                              <Label prefHeight="17.0" prefWidth="73.0" text="ABC1234" textFill="#ecf0f1" GridPane.columnIndex="6" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                                 <cursor>
+                                    <Cursor fx:constant="TEXT" />
+                                 </cursor>
+                              </Label>
+                              <Label contentDisplay="CENTER" prefHeight="17.0" prefWidth="76.0" text="Regular ID" textFill="#ecf0f1" GridPane.columnIndex="6" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                                 <cursor>
+                                    <Cursor fx:constant="TEXT" />
+                                 </cursor>
+                              </Label>
+                              <Separator opacity="0.23" prefWidth="200.0" GridPane.columnSpan="10" GridPane.halignment="RIGHT" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                                 <GridPane.margin>
+                                    <Insets left="10.0" right="10.0" />
+                                 </GridPane.margin>
+                              </Separator>
+                              <Label layoutX="319.0" layoutY="72.0" prefHeight="17.0" prefWidth="57.0" text="Country:" textFill="#ecf0f1" GridPane.columnSpan="2" GridPane.halignment="RIGHT" GridPane.rowIndex="6" GridPane.valignment="BOTTOM" />
+                              <Label prefHeight="17.0" prefWidth="82.0" text="POLAND" textFill="#ecf0f1" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM" />
+                              <Label prefHeight="17.0" prefWidth="40.0" text="Blocked:" textFill="#ecf0f1" GridPane.columnIndex="5" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                                 <font>
+                                    <Font name="System Italic" size="10.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="17.0" prefWidth="40.0" text="- VALUE" textFill="#ee3535" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                                 <font>
+                                    <Font name="System Italic" size="10.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="17.0" prefWidth="40.0" text="PLN" textFill="#ee3535" GridPane.columnIndex="7" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                                 <font>
+                                    <Font name="System Italic" size="10.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </GridPane>
+                     </children></AnchorPane>
+              </content>
+               <graphic>
+                  <Label text="Account" textAlignment="CENTER" textFill="#ecf0f1" wrapText="true">
+                     <font>
+                        <Font name="System Bold" size="11.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </graphic>
+            </Tab>
+            <Tab closable="false" style="-fx-rotate: 90; -fx-background-color: #2c3e50;">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="400.0" prefWidth="529.0">
+                     <children>
+                        <GridPane prefHeight="373.0" prefWidth="511.0">
+                          <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label text="From:" textFill="#ecf0f1" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.valignment="BOTTOM">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="95.0" layoutY="33.0" prefHeight="17.0" prefWidth="250.0" text="Name Lastname # 3665 9499 0000 3024 0692" textFill="#ecf0f1" underline="true" GridPane.columnIndex="2" GridPane.columnSpan="4" GridPane.halignment="LEFT" GridPane.valignment="BOTTOM">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                                 <GridPane.margin>
+                                    <Insets left="10.0" />
+                                 </GridPane.margin>
+                              </Label>
+                              <Label text="Full Name:" textFill="#ecf0f1" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Acc.ount No.:" textFill="#ecf0f1" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Subject:" textFill="#ecf0f1" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Amount:" textFill="#ecf0f1" GridPane.columnIndex="1" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </Label>
+                              <TextField GridPane.columnIndex="2" GridPane.columnSpan="4" GridPane.rowIndex="2" GridPane.valignment="TOP">
+                                 <GridPane.margin>
+                                    <Insets left="10.0" />
+                                 </GridPane.margin>
+                              </TextField>
+                              <TextField GridPane.columnIndex="2" GridPane.columnSpan="4" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                                 <GridPane.margin>
+                                    <Insets left="10.0" />
+                                 </GridPane.margin>
+                              </TextField>
+                              <TextField GridPane.columnIndex="2" GridPane.columnSpan="4" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                                 <GridPane.margin>
+                                    <Insets left="10.0" />
+                                 </GridPane.margin>
+                              </TextField>
+                              <TextField GridPane.columnIndex="2" GridPane.columnSpan="4" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                                 <GridPane.margin>
+                                    <Insets left="10.0" />
+                                 </GridPane.margin>
+                              </TextField>
+                              <Button mnemonicParsing="false" text="Send" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="TOP" />
+                              <Button mnemonicParsing="false" text="Cancel" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="TOP" />
+                              <Label text="Balance:" textFill="#ecf0f1" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font name="System Bold Italic" size="10.0" />
+                                 </font>
+                                 <GridPane.margin>
+                                    <Insets bottom="20.0" />
+                                 </GridPane.margin>
+                              </Label>
+                              <Label text="VALUE" textFill="#ecf0f1" GridPane.columnIndex="2" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold Italic" size="10.0" />
+                                 </font>
+                                 <GridPane.margin>
+                                    <Insets bottom="20.0" left="10.0" />
+                                 </GridPane.margin>
+                              </Label>
+                              <Label text="PLN" textFill="#ecf0f1" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font name="System Bold Italic" size="10.0" />
+                                 </font>
+                                 <GridPane.margin>
+                                    <Insets bottom="20.0" />
+                                 </GridPane.margin>
+                              </Label>
+                           </children>
+                        </GridPane>
+                     </children></AnchorPane>
+               </content>
+               <graphic>
+                  <Label alignment="CENTER" contentDisplay="CENTER" lineSpacing="10.0" text="Transfer" textAlignment="JUSTIFY" textFill="#ecf0f1">
+                     <font>
+                        <Font name="System Bold" size="11.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </graphic>
+            </Tab>
+            <Tab closable="false" style="-fx-rotate: 90; -fx-background-color: #2c3e50;">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="400.0" prefWidth="529.0" />
+              </content>
+               <graphic>
+                  <Label alignment="CENTER" contentDisplay="CENTER" lineSpacing="10.0" text="History" textAlignment="JUSTIFY" textFill="#ecf0f1">
+                     <font>
+                        <Font name="System Bold" size="11.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </graphic>
+            </Tab>
+            <Tab closable="false" style="-fx-rotate: 90; -fx-background-color: #2c3e50;">
+               <content>
+                  <AnchorPane minHeight="60.0" minWidth="60.0" prefHeight="400.0" prefWidth="540.0" snapToPixel="false" />
+               </content>
+               <graphic>
+                  <Label text="Settings" textAlignment="CENTER" textFill="#ecf0f1" wrapText="true">
+                     <font>
+                        <Font name="System Bold" size="11.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </graphic>
+            </Tab>
+            <Tab closable="false" style="-fx-rotate: 90; -fx-background-color: #2c3e50;">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+               <graphic>
+                  <Label ellipsisString="" text="Log Out" textAlignment="JUSTIFY" textFill="#ecf0f1">
+                     <font>
+                        <Font name="System Bold" size="11.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </graphic>
+            </Tab>
+         </tabs>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <StackPane.margin>
+            <Insets top="20.0" />
+         </StackPane.margin>
+      </JFXTabPane>
+   </children>
+</StackPane>
